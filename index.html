@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Homepage for a privately configured rclone Google Drive sync application.">
+  <title>rclone · Personal Google Drive Sync</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Private-use OAuth application</p>
+      <h1>rclone: Personal Google Drive Sync</h1>
+      <p class="intro">A privately configured Google OAuth client for synchronizing the owner's Google Drive accounts with local folders.</p>
+    </header>
+    <section aria-labelledby="purpose">
+      <h2 id="purpose">What this application does</h2>
+      <p>The owner runs <a href="https://rclone.org/">rclone</a> on their own computer to download Drive files and upload local files. Scheduled two-way synchronization also propagates edits and deletions.</p>
+      <p>Google Drive authorization lets the local application read file contents and metadata, create and update files, and move or delete files as required by the owner's sync configuration.</p>
+      <p>This client is intended only for the owner's authorized accounts. It is not a public sync service, and this site is not the official rclone website or rclone's shared OAuth application.</p>
+    </section>
+    <section aria-labelledby="data">
+      <h2 id="data">Where your data goes</h2>
+      <p>Synchronization takes place between Google Drive and the owner's computer. This static website does not receive Drive files, OAuth tokens, or account credentials.</p>
+      <p>For details about data access, storage, and revoking access, see the <a href="privacy.html">privacy policy</a>.</p>
+    </section>
+    <section aria-labelledby="contact">
+      <h2 id="contact">Contact</h2>
+      <p>Contact the maintainer through <a href="https://github.com/TheTriumphantFox/google-drive-sync-oauth-site/issues">the site's GitHub issues page</a>. Do not include passwords, tokens, or private file contents in a public issue.</p>
+    </section>
+    <footer><a href="privacy.html">Privacy policy</a> · Hosted on GitHub Pages</footer>
+  </main>
+</body>
+</html>
